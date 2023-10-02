@@ -1,8 +1,8 @@
 from PyQt6.QtCore import QDate
 from PyQt6.QtWidgets import QMainWindow
 
-from src.widgets.date_chooser import DateChooser
 from ui import age_calculator
+from widgets.date_chooser import DateChooser
 
 
 class AgeCalculator(QMainWindow, age_calculator.Ui_MainWindow):
